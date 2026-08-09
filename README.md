@@ -52,7 +52,7 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
   <img src="https://img.shields.io/badge/-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" title="Git" />
   <img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" title="GitHub" />
   <img src="https://img.shields.io/badge/-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" title="Vitest" />
-  <img src="https://img.shields.io/badge/-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VSCode" title="VSCode" />
+  <img src="https://img.shields.io/badge/-0078D4?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VSCode" title="VSCode" />
   <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" title="Vercel" />
 </p>
 
