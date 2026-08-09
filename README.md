@@ -66,7 +66,7 @@ Feel free to reach out to me for collaborations, discussions on backend architec
 
 <p align="left">
   <a href="mailto:hammadasdfg6@gmail.com">
-    <img src="https://img.shields.io/badge/Email-hammadasdfg6%40gmail.com-FFD700?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" />
+    <img src="https://img.shields.io/badge/email-hammadasdfg6%40gmail.com-FFD700?style=for-the-badge&logo=gmail&logoColor=black" alt="Email" />
   </a>
   <!-- Add more links here in the future -->
   <!-- 
