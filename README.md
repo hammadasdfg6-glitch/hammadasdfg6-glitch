@@ -31,7 +31,7 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 
 ### Languages (Top Contribution)
 <a href="https://github.com/anuraghazra/github-readme-stats">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hammadasdfg6-glitch&layout=compact&theme=radical&bg_color=151515&title_color=FFD700&text_color=9f9f9f&hide_border=true&langs_count=4&v=1" alt="Top Languages" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hammadasdfg6-glitch&layout=compact&theme=radical&bg_color=151515&title_color=FFD700&text_color=9f9f9f&hide_border=true&langs_count=4&v=1" alt="Top Languages" />
 </a>
 <br/>
 
@@ -61,7 +61,7 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=hammadasdfg6-glitch&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=151515&title_color=FFD700&icon_color=FFD700&text_color=9f9f9f&v=1" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=hammadasdfg6-glitch&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=151515&title_color=FFD700&icon_color=FFD700&text_color=9f9f9f&v=1" alt="GitHub Stats" />
   <br/>
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hammadasdfg6-glitch&theme=radical&hide_border=true&background=151515&ring=FFD700&fire=FFD700&currStreakNum=9f9f9f&v=1" alt="GitHub Streak" />
