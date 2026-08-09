@@ -29,14 +29,16 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 
 ## 🛠️ Tech Stack & Tools
 
-### Languages (Top Contribution)
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hammadasdfg6-glitch&layout=compact&theme=radical&bg_color=151515&title_color=FFD700&text_color=9f9f9f&hide_border=true&langs_count=4&v=1" alt="Top Languages" />
-</a>
+<h3 align="center">Languages (Top Contribution)</h3>
+<div align="center">
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=hammadasdfg6-glitch&layout=compact&theme=radical&bg_color=151515&title_color=FFD700&text_color=9f9f9f&hide_border=true&langs_count=4&v=1" alt="Top Languages" />
+  </a>
+</div>
 <br/>
 
-### Technologies & Frameworks
-<p align="left">
+<h3 align="center">Technologies & Frameworks</h3>
+<p align="center">
   <img src="https://img.shields.io/badge/-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" title="Node.js" />
   <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js" title="Express.js" />
   <img src="https://img.shields.io/badge/-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" title="MongoDB" />
@@ -47,8 +49,8 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
   <img src="https://img.shields.io/badge/-FFD700?style=for-the-badge&logo=redis&logoColor=black" alt="BullMQ" title="BullMQ" />
 </p>
 
-### Tools & Platforms
-<p align="left">
+<h3 align="center">Tools & Platforms</h3>
+<p align="center">
   <img src="https://img.shields.io/badge/-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" title="Git" />
   <img src="https://img.shields.io/badge/-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" title="GitHub" />
   <img src="https://img.shields.io/badge/-6E9F18?style=for-the-badge&logo=vitest&logoColor=white" alt="Vitest" title="Vitest" />
