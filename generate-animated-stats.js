@@ -40,7 +40,11 @@ const apiUrl = `https://github-readme-stats-eight-theta.vercel.app/api?username=
             const pEnd = ((delay + duration) / totalCycle) * 100;
             const yTransform = -(spinCount * lineHeight);
             
-            const animName = `spin-${styleCounter++}`;
+            const animName = `spin-${styleCounter}`;
+            const className = `col-${styleCounter}`;
+            styleCounter++;
+            
+            customStyles += `.${className} { animation: ${animName} ${totalCycle}s infinite; }\n`;
             customStyles += `@keyframes ${animName} {
                 0% { transform: translateY(0); }
                 ${pStart}% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
@@ -49,7 +53,7 @@ const apiUrl = `https://github-readme-stats-eight-theta.vercel.app/api?username=
             }\n`;
             
             svg += `
-            <g style="animation: ${animName} ${totalCycle}s infinite;">
+            <g class="${className}">
                 <text class="stat">${column}</text>
             </g>
             `;
