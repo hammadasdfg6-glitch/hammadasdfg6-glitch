@@ -79,7 +79,19 @@
       }
     }
   
-        </style>
+        <style>
+@keyframes spin-0 { from { transform: translateY(0); } to { transform: translateY(-160px); } }
+@keyframes spin-1 { from { transform: translateY(0); } to { transform: translateY(-176px); } }
+@keyframes spin-2 { from { transform: translateY(0); } to { transform: translateY(-192px); } }
+@keyframes spin-3 { from { transform: translateY(0); } to { transform: translateY(-208px); } }
+@keyframes spin-4 { from { transform: translateY(0); } to { transform: translateY(-224px); } }
+@keyframes spin-5 { from { transform: translateY(0); } to { transform: translateY(-240px); } }
+@keyframes spin-6 { from { transform: translateY(0); } to { transform: translateY(-256px); } }
+@keyframes spin-7 { from { transform: translateY(0); } to { transform: translateY(-272px); } }
+@keyframes spin-8 { from { transform: translateY(0); } to { transform: translateY(-288px); } }
+@keyframes spin-9 { from { transform: translateY(0); } to { transform: translateY(-304px); } }
+</style>
+</style>
 
         undefined
 
@@ -139,8 +151,7 @@
       
       <text class="stat bold"  y="12.5">Total Stars:</text>
       <defs><clipPath id="clip-stars"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-stars)">
-        <g>
-            <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-176" begin="0.5s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
+        <g style="animation: spin-1 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;">
             <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan><tspan x="150" y="188.5">1</tspan></text>
         </g>
         </g>
@@ -150,18 +161,15 @@
       
       <text class="stat bold"  y="12.5">Total Commits:</text>
       <defs><clipPath id="clip-commits"><rect x="150" y="0.5" width="30.5" height="18" /></clipPath></defs><g clip-path="url(#clip-commits)">
-        <g>
-            <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-176" begin="0.5s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
+        <g style="animation: spin-1 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;">
             <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan><tspan x="150" y="188.5">1</tspan></text>
         </g>
         
-        <g>
-            <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-160" begin="0.7s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
+        <g style="animation: spin-0 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.7s forwards;">
             <text class="stat"><tspan x="158.5" y="12.5">0</tspan><tspan x="158.5" y="28.5">1</tspan><tspan x="158.5" y="44.5">2</tspan><tspan x="158.5" y="60.5">3</tspan><tspan x="158.5" y="76.5">4</tspan><tspan x="158.5" y="92.5">5</tspan><tspan x="158.5" y="108.5">6</tspan><tspan x="158.5" y="124.5">7</tspan><tspan x="158.5" y="140.5">8</tspan><tspan x="158.5" y="156.5">9</tspan><tspan x="158.5" y="172.5">0</tspan></text>
         </g>
         
-        <g>
-            <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-192" begin="0.9s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
+        <g style="animation: spin-2 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.9s forwards;">
             <text class="stat"><tspan x="167" y="12.5">0</tspan><tspan x="167" y="28.5">1</tspan><tspan x="167" y="44.5">2</tspan><tspan x="167" y="60.5">3</tspan><tspan x="167" y="76.5">4</tspan><tspan x="167" y="92.5">5</tspan><tspan x="167" y="108.5">6</tspan><tspan x="167" y="124.5">7</tspan><tspan x="167" y="140.5">8</tspan><tspan x="167" y="156.5">9</tspan><tspan x="167" y="172.5">0</tspan><tspan x="167" y="188.5">1</tspan><tspan x="167" y="204.5">2</tspan></text>
         </g>
         </g>
@@ -171,8 +179,7 @@
       
       <text class="stat bold"  y="12.5">Total PRs:</text>
       <defs><clipPath id="clip-prs"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-prs)">
-        <g>
-            <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-160" begin="0.5s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
+        <g style="animation: spin-0 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;">
             <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan></text>
         </g>
         </g>
@@ -182,8 +189,7 @@
       
       <text class="stat bold"  y="12.5">Total Issues:</text>
       <defs><clipPath id="clip-issues"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-issues)">
-        <g>
-            <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-160" begin="0.5s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
+        <g style="animation: spin-0 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;">
             <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan></text>
         </g>
         </g>
@@ -193,8 +199,7 @@
       
       <text class="stat bold"  y="12.5">Contributed to:</text>
       <defs><clipPath id="clip-contribs"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-contribs)">
-        <g>
-            <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-160" begin="0.5s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
+        <g style="animation: spin-0 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;">
             <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan></text>
         </g>
         </g>

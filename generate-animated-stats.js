@@ -33,8 +33,7 @@ function generateRollingNumberSVG(numberStr, x, y, id) {
         const duration = 1.5;
         
         svg += `
-        <g>
-            <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-${spinCount * lineHeight}" begin="${delay}s" dur="${duration}s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
+        <g style="animation: spin-${d} ${duration}s cubic-bezier(0.16, 1, 0.3, 1) ${delay}s forwards;">
             <text class="stat">${column}</text>
         </g>
         `;
@@ -43,6 +42,15 @@ function generateRollingNumberSVG(numberStr, x, y, id) {
     svg += `</g>`;
     return svg;
 }
+
+// Generate the CSS keyframes for digits 0-9
+let customStyles = '<style>\n';
+for (let i = 0; i <= 9; i++) {
+    const spinCount = 10 + i;
+    const yTransform = -(spinCount * 16); // lineHeight is 16
+    customStyles += `@keyframes spin-${i} { from { transform: translateY(0); } to { transform: translateY(${yTransform}px); } }\n`;
+}
+customStyles += '</style>\n';
 
 https.get(apiUrl, res => {
     let data = '';
@@ -72,6 +80,8 @@ https.get(apiUrl, res => {
             /animation:\s*rankAnimation\s*1s\s*forwards\s*ease-in-out;/g,
             'animation: rankAnimation 2s forwards cubic-bezier(0.175, 0.885, 0.32, 1.275); animation-delay: 1s; stroke-dashoffset: 251.32741228718345;'
         );
+
+        modifiedSvg = modifiedSvg.replace('</style>', customStyles + '</style>');
 
         fs.writeFileSync('animated-stats.svg', modifiedSvg);
         console.log('Successfully generated animated-stats.svg');
