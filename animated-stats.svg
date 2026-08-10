@@ -79,7 +79,7 @@
       }
     }
   
-        <style>
+        
 @keyframes spin-0 {
                 0% { transform: translateY(0); }
                 10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
