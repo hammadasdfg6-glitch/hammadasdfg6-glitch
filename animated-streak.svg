@@ -11,32 +11,32 @@
                 100% { opacity: 1; }
             }
         
-.col-100 { animation: spin-100 5s infinite; }
+.col-100 { animation: spin-100 7.5s infinite; }
 @keyframes spin-100 {
                     0% { transform: translateY(0); }
-                    10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                    40% { transform: translateY(-420px); }
+                    6.666666666666667% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                    26.666666666666668% { transform: translateY(-420px); }
                     100% { transform: translateY(-420px); }
                 }
-.col-101 { animation: spin-101 5s infinite; }
+.col-101 { animation: spin-101 7.5s infinite; }
 @keyframes spin-101 {
                     0% { transform: translateY(0); }
-                    13.999999999999998% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                    44.00000000000001% { transform: translateY(-476px); }
+                    9.333333333333332% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                    29.333333333333332% { transform: translateY(-476px); }
                     100% { transform: translateY(-476px); }
                 }
-.col-102 { animation: spin-102 5s infinite; }
+.col-102 { animation: spin-102 7.5s infinite; }
 @keyframes spin-102 {
                     0% { transform: translateY(0); }
-                    10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                    40% { transform: translateY(-336px); }
+                    6.666666666666667% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                    26.666666666666668% { transform: translateY(-336px); }
                     100% { transform: translateY(-336px); }
                 }
-.col-103 { animation: spin-103 5s infinite; }
+.col-103 { animation: spin-103 7.5s infinite; }
 @keyframes spin-103 {
                     0% { transform: translateY(0); }
-                    10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                    40% { transform: translateY(-364px); }
+                    6.666666666666667% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                    26.666666666666668% { transform: translateY(-364px); }
                     100% { transform: translateY(-364px); }
                 }
 </style>

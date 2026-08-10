@@ -33,7 +33,7 @@ const apiUrl = `https://github-readme-stats-eight-theta.vercel.app/api?username=
             
             const delay = 0.5 + (index * 0.2); 
             const duration = 1.5;
-            const totalCycle = 5.0; // 5 seconds total loop time
+            const totalCycle = 7.5; // 5 seconds total loop time
             
             // Calculate percentages for keyframes
             const pStart = (delay / totalCycle) * 100;

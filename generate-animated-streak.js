@@ -40,7 +40,7 @@ https.get(apiUrl, res => {
                 
                 const delay = 0.5 + (index * 0.2); 
                 const duration = 1.5;
-                const totalCycle = 5.0;
+                const totalCycle = 7.5;
                 
                 const pStart = (delay / totalCycle) * 100;
                 const pEnd = ((delay + duration) / totalCycle) * 100;

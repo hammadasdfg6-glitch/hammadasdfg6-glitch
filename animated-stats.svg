@@ -80,53 +80,53 @@
     }
   
         
-.col-0 { animation: spin-0 5s infinite; }
+.col-0 { animation: spin-0 7.5s infinite; }
 @keyframes spin-0 {
                 0% { transform: translateY(0); }
-                10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                40% { transform: translateY(-176px); }
+                6.666666666666667% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                26.666666666666668% { transform: translateY(-176px); }
                 100% { transform: translateY(-176px); }
             }
-.col-1 { animation: spin-1 5s infinite; }
+.col-1 { animation: spin-1 7.5s infinite; }
 @keyframes spin-1 {
                 0% { transform: translateY(0); }
-                10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                40% { transform: translateY(-176px); }
+                6.666666666666667% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                26.666666666666668% { transform: translateY(-176px); }
                 100% { transform: translateY(-176px); }
             }
-.col-2 { animation: spin-2 5s infinite; }
+.col-2 { animation: spin-2 7.5s infinite; }
 @keyframes spin-2 {
                 0% { transform: translateY(0); }
-                13.999999999999998% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                44.00000000000001% { transform: translateY(-160px); }
+                9.333333333333332% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                29.333333333333332% { transform: translateY(-160px); }
                 100% { transform: translateY(-160px); }
             }
-.col-3 { animation: spin-3 5s infinite; }
+.col-3 { animation: spin-3 7.5s infinite; }
 @keyframes spin-3 {
                 0% { transform: translateY(0); }
-                18% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                48% { transform: translateY(-192px); }
+                12.000000000000002% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                32% { transform: translateY(-192px); }
                 100% { transform: translateY(-192px); }
             }
-.col-4 { animation: spin-4 5s infinite; }
+.col-4 { animation: spin-4 7.5s infinite; }
 @keyframes spin-4 {
                 0% { transform: translateY(0); }
-                10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                40% { transform: translateY(-160px); }
+                6.666666666666667% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                26.666666666666668% { transform: translateY(-160px); }
                 100% { transform: translateY(-160px); }
             }
-.col-5 { animation: spin-5 5s infinite; }
+.col-5 { animation: spin-5 7.5s infinite; }
 @keyframes spin-5 {
                 0% { transform: translateY(0); }
-                10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                40% { transform: translateY(-160px); }
+                6.666666666666667% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                26.666666666666668% { transform: translateY(-160px); }
                 100% { transform: translateY(-160px); }
             }
-.col-6 { animation: spin-6 5s infinite; }
+.col-6 { animation: spin-6 7.5s infinite; }
 @keyframes spin-6 {
                 0% { transform: translateY(0); }
-                10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                40% { transform: translateY(-160px); }
+                6.666666666666667% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                26.666666666666668% { transform: translateY(-160px); }
                 100% { transform: translateY(-160px); }
             }
 
