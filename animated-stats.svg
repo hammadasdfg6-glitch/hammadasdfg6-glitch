@@ -46,7 +46,7 @@
       opacity: 0.8;
       transform-origin: -10px 8px;
       transform: rotate(-90deg);
-      animation: rankAnimation 2s forwards cubic-bezier(0.175, 0.885, 0.32, 1.275); animation-delay: 1s; stroke-dashoffset: 251.32741228718345;
+      animation: customRankAnimation 5s infinite;
     }
     
     @keyframes rankAnimation {
@@ -80,18 +80,56 @@
     }
   
         <style>
-@keyframes spin-0 { from { transform: translateY(0); } to { transform: translateY(-160px); } }
-@keyframes spin-1 { from { transform: translateY(0); } to { transform: translateY(-176px); } }
-@keyframes spin-2 { from { transform: translateY(0); } to { transform: translateY(-192px); } }
-@keyframes spin-3 { from { transform: translateY(0); } to { transform: translateY(-208px); } }
-@keyframes spin-4 { from { transform: translateY(0); } to { transform: translateY(-224px); } }
-@keyframes spin-5 { from { transform: translateY(0); } to { transform: translateY(-240px); } }
-@keyframes spin-6 { from { transform: translateY(0); } to { transform: translateY(-256px); } }
-@keyframes spin-7 { from { transform: translateY(0); } to { transform: translateY(-272px); } }
-@keyframes spin-8 { from { transform: translateY(0); } to { transform: translateY(-288px); } }
-@keyframes spin-9 { from { transform: translateY(0); } to { transform: translateY(-304px); } }
-</style>
-</style>
+@keyframes spin-0 {
+                0% { transform: translateY(0); }
+                10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                40% { transform: translateY(-176px); }
+                100% { transform: translateY(-176px); }
+            }
+@keyframes spin-1 {
+                0% { transform: translateY(0); }
+                10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                40% { transform: translateY(-176px); }
+                100% { transform: translateY(-176px); }
+            }
+@keyframes spin-2 {
+                0% { transform: translateY(0); }
+                13.999999999999998% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                44.00000000000001% { transform: translateY(-160px); }
+                100% { transform: translateY(-160px); }
+            }
+@keyframes spin-3 {
+                0% { transform: translateY(0); }
+                18% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                48% { transform: translateY(-192px); }
+                100% { transform: translateY(-192px); }
+            }
+@keyframes spin-4 {
+                0% { transform: translateY(0); }
+                10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                40% { transform: translateY(-160px); }
+                100% { transform: translateY(-160px); }
+            }
+@keyframes spin-5 {
+                0% { transform: translateY(0); }
+                10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                40% { transform: translateY(-160px); }
+                100% { transform: translateY(-160px); }
+            }
+@keyframes spin-6 {
+                0% { transform: translateY(0); }
+                10% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
+                40% { transform: translateY(-160px); }
+                100% { transform: translateY(-160px); }
+            }
+
+        @keyframes customRankAnimation {
+            0% { stroke-dashoffset: 251.327; }
+            20% { stroke-dashoffset: 251.327; animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            60% { stroke-dashoffset: 127.42532200850238; }
+            100% { stroke-dashoffset: 127.42532200850238; }
+        }
+        </style>
 
         undefined
 
@@ -151,58 +189,58 @@
       
       <text class="stat bold"  y="12.5">Total Stars:</text>
       <defs><clipPath id="clip-stars"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-stars)">
-        <g style="animation: spin-1 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;">
-            <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan><tspan x="150" y="188.5">1</tspan></text>
-        </g>
-        </g>
+            <g style="animation: spin-0 5s infinite;">
+                <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan><tspan x="150" y="188.5">1</tspan></text>
+            </g>
+            </g>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       
       <text class="stat bold"  y="12.5">Total Commits:</text>
       <defs><clipPath id="clip-commits"><rect x="150" y="0.5" width="30.5" height="18" /></clipPath></defs><g clip-path="url(#clip-commits)">
-        <g style="animation: spin-1 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;">
-            <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan><tspan x="150" y="188.5">1</tspan></text>
-        </g>
-        
-        <g style="animation: spin-0 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.7s forwards;">
-            <text class="stat"><tspan x="158.5" y="12.5">0</tspan><tspan x="158.5" y="28.5">1</tspan><tspan x="158.5" y="44.5">2</tspan><tspan x="158.5" y="60.5">3</tspan><tspan x="158.5" y="76.5">4</tspan><tspan x="158.5" y="92.5">5</tspan><tspan x="158.5" y="108.5">6</tspan><tspan x="158.5" y="124.5">7</tspan><tspan x="158.5" y="140.5">8</tspan><tspan x="158.5" y="156.5">9</tspan><tspan x="158.5" y="172.5">0</tspan></text>
-        </g>
-        
-        <g style="animation: spin-2 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.9s forwards;">
-            <text class="stat"><tspan x="167" y="12.5">0</tspan><tspan x="167" y="28.5">1</tspan><tspan x="167" y="44.5">2</tspan><tspan x="167" y="60.5">3</tspan><tspan x="167" y="76.5">4</tspan><tspan x="167" y="92.5">5</tspan><tspan x="167" y="108.5">6</tspan><tspan x="167" y="124.5">7</tspan><tspan x="167" y="140.5">8</tspan><tspan x="167" y="156.5">9</tspan><tspan x="167" y="172.5">0</tspan><tspan x="167" y="188.5">1</tspan><tspan x="167" y="204.5">2</tspan></text>
-        </g>
-        </g>
+            <g style="animation: spin-1 5s infinite;">
+                <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan><tspan x="150" y="188.5">1</tspan></text>
+            </g>
+            
+            <g style="animation: spin-2 5s infinite;">
+                <text class="stat"><tspan x="158.5" y="12.5">0</tspan><tspan x="158.5" y="28.5">1</tspan><tspan x="158.5" y="44.5">2</tspan><tspan x="158.5" y="60.5">3</tspan><tspan x="158.5" y="76.5">4</tspan><tspan x="158.5" y="92.5">5</tspan><tspan x="158.5" y="108.5">6</tspan><tspan x="158.5" y="124.5">7</tspan><tspan x="158.5" y="140.5">8</tspan><tspan x="158.5" y="156.5">9</tspan><tspan x="158.5" y="172.5">0</tspan></text>
+            </g>
+            
+            <g style="animation: spin-3 5s infinite;">
+                <text class="stat"><tspan x="167" y="12.5">0</tspan><tspan x="167" y="28.5">1</tspan><tspan x="167" y="44.5">2</tspan><tspan x="167" y="60.5">3</tspan><tspan x="167" y="76.5">4</tspan><tspan x="167" y="92.5">5</tspan><tspan x="167" y="108.5">6</tspan><tspan x="167" y="124.5">7</tspan><tspan x="167" y="140.5">8</tspan><tspan x="167" y="156.5">9</tspan><tspan x="167" y="172.5">0</tspan><tspan x="167" y="188.5">1</tspan><tspan x="167" y="204.5">2</tspan></text>
+            </g>
+            </g>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       
       <text class="stat bold"  y="12.5">Total PRs:</text>
       <defs><clipPath id="clip-prs"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-prs)">
-        <g style="animation: spin-0 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;">
-            <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan></text>
-        </g>
-        </g>
+            <g style="animation: spin-4 5s infinite;">
+                <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan></text>
+            </g>
+            </g>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       
       <text class="stat bold"  y="12.5">Total Issues:</text>
       <defs><clipPath id="clip-issues"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-issues)">
-        <g style="animation: spin-0 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;">
-            <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan></text>
-        </g>
-        </g>
+            <g style="animation: spin-5 5s infinite;">
+                <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan></text>
+            </g>
+            </g>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       
       <text class="stat bold"  y="12.5">Contributed to:</text>
       <defs><clipPath id="clip-contribs"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-contribs)">
-        <g style="animation: spin-0 1.5s cubic-bezier(0.16, 1, 0.3, 1) 0.5s forwards;">
-            <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan></text>
-        </g>
-        </g>
+            <g style="animation: spin-6 5s infinite;">
+                <text class="stat"><tspan x="150" y="12.5">0</tspan><tspan x="150" y="28.5">1</tspan><tspan x="150" y="44.5">2</tspan><tspan x="150" y="60.5">3</tspan><tspan x="150" y="76.5">4</tspan><tspan x="150" y="92.5">5</tspan><tspan x="150" y="108.5">6</tspan><tspan x="150" y="124.5">7</tspan><tspan x="150" y="140.5">8</tspan><tspan x="150" y="156.5">9</tspan><tspan x="150" y="172.5">0</tspan></text>
+            </g>
+            </g>
     </g>
   </g>
     </svg> 
