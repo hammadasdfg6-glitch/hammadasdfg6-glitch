@@ -48,11 +48,22 @@ https.get(apiUrl, res => {
     let data = '';
     res.on('data', chunk => data += chunk);
     res.on('end', () => {
-        // Regex to find the <text> tags with data-testid (multiline)
-        const regex = /<text[\s\S]*?class="stat"[\s\S]*?x="([^"]+)"[\s\S]*?y="([^"]+)"[\s\S]*?data-testid="([^"]+)"[\s\S]*?>([\s\S]*?)<\/text>/g;
+        // Regex to find only the specific <text> tags with data-testid
+        const regex = /<text([^>]*data-testid="([^"]+)"[^>]*)>([\s\S]*?)<\/text>/g;
         
-        let modifiedSvg = data.replace(regex, (match, x, y, id, number) => {
-            return generateRollingNumberSVG(number.trim(), parseFloat(x), parseFloat(y), id);
+        let modifiedSvg = data.replace(regex, (match, attrs, id, number) => {
+            // Only process the statistic rows
+            if (['stars', 'commits', 'prs', 'issues', 'contribs'].indexOf(id) === -1) {
+                return match; // return original string unchanged
+            }
+            
+            // Extract x and y from attrs
+            const xMatch = attrs.match(/x="([^"]+)"/);
+            const yMatch = attrs.match(/y="([^"]+)"/);
+            const x = xMatch ? parseFloat(xMatch[1]) : 170;
+            const y = yMatch ? parseFloat(yMatch[1]) : 12.5;
+            
+            return generateRollingNumberSVG(number.trim(), x, y, id);
         });
         
         // Enhance Rank Circle animation

@@ -101,6 +101,43 @@
         transform="translate(25, 35)"
       >
         <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >My GitHub Statistics</text>
+    </g>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <g data-testid="rank-circle" 
+          transform="translate(400, 47.5)">
+        <circle class="rank-circle-rim" cx="-10" cy="8" r="40" />
+        <circle class="rank-circle" cx="-10" cy="8" r="40" />
+        <g class="rank-text">
+          <text
+            x="0"
+            y="0"
+            alignment-baseline="central"
+            dominant-baseline="central"
+            text-anchor="middle"
+          >
+            A+
+          </text>
+        </g>
+      </g>
+
+    <svg x="0" y="0">
+      <g transform="translate(0, 0)">
+    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 0)">
+      
+      <text class="stat bold"  y="12.5">Total Stars:</text>
       <defs><clipPath id="clip-stars"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-stars)">
         <g>
             <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-176" begin="0.5s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
@@ -111,6 +148,7 @@
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
       
+      <text class="stat bold"  y="12.5">Total Commits:</text>
       <defs><clipPath id="clip-commits"><rect x="150" y="0.5" width="30.5" height="18" /></clipPath></defs><g clip-path="url(#clip-commits)">
         <g>
             <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-176" begin="0.5s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
@@ -131,6 +169,7 @@
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
       
+      <text class="stat bold"  y="12.5">Total PRs:</text>
       <defs><clipPath id="clip-prs"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-prs)">
         <g>
             <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-160" begin="0.5s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
@@ -141,6 +180,7 @@
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
       
+      <text class="stat bold"  y="12.5">Total Issues:</text>
       <defs><clipPath id="clip-issues"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-issues)">
         <g>
             <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-160" begin="0.5s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
@@ -151,6 +191,7 @@
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
       
+      <text class="stat bold"  y="12.5">Contributed to:</text>
       <defs><clipPath id="clip-contribs"><rect x="150" y="0.5" width="13.5" height="18" /></clipPath></defs><g clip-path="url(#clip-contribs)">
         <g>
             <animateTransform attributeName="transform" type="translate" from="0,0" to="0,-160" begin="0.5s" dur="1.5s" fill="freeze" calcMode="spline" keySplines="0.16 1 0.3 1" keyTimes="0;1" />
