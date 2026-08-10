@@ -85,21 +85,21 @@ https.get(apiUrl, res => {
             return generateRollingNumberSVG(number.trim(), x, y, id);
         });
         
-        // Enhance Rank Circle animation to loop every 5 seconds
-        modifiedSvg = modifiedSvg.replace(
-            /animation:\s*rankAnimation\s*1s\s*forwards\s*ease-in-out;/g,
-            'animation: customRankAnimation 5s infinite;'
-        );
-        
         // Find the target offset (e.g., 127.83...)
         const offsetMatch = data.match(/stroke-dashoffset:\s*([\d.]+);\s*}\s*}/);
         const targetOffset = offsetMatch ? offsetMatch[1] : '127.83';
+
+        // Enhance Rank Circle animation to loop every 7.5 seconds
+        modifiedSvg = modifiedSvg.replace(
+            /animation:\s*rankAnimation\s*1s\s*forwards\s*ease-in-out;/g,
+            'animation: customRankAnimation 7.5s infinite;'
+        );
         
         customStyles += `
         @keyframes customRankAnimation {
             0% { stroke-dashoffset: 251.327; }
-            20% { stroke-dashoffset: 251.327; animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-            60% { stroke-dashoffset: ${targetOffset}; }
+            6.66% { stroke-dashoffset: 251.327; animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+            20% { stroke-dashoffset: ${targetOffset}; }
             100% { stroke-dashoffset: ${targetOffset}; }
         }
         `;
