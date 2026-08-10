@@ -16,11 +16,12 @@ https.get(apiUrl, res => {
             const charWidth = 16;
             const lineHeight = 28;
             
-            const clipId = 'clip-streak-' + styleCounter;
+            // const clipId = 'clip-streak-' + styleCounter;
             const y = parseFloat(yStr);
             
-            svg += `<defs><clipPath id='${clipId}'><rect x='-50' y='${y - 28}' width='100' height='35' /></clipPath></defs>`;
-            svg += `<g clip-path='url(#${clipId})'>`;
+            // svg += `<defs><clipPath id='${clipId}'><rect x='-50' y='${y - 28}' width='100' height='35' /></clipPath></defs>`;
+            // svg += `<g clip-path='url(#${clipId})'>`;
+            svg += `<g>`;
             
             digits.forEach((digit, index) => {
                 const d = parseInt(digit);
