@@ -79,7 +79,7 @@ https.get(apiUrl, res => {
         
         modifiedSvg = modifiedSvg.replace('</style>', customStyles + '</style>');
         
-        fs.writeFileSync('animated-streak.svg', modifiedSvg);
-        console.log('Successfully generated animated-streak.svg');
+        fs.writeFileSync('animated-streak-v2.svg', modifiedSvg);
+        console.log('Successfully generated animated-streak-v2.svg');
     });
 });

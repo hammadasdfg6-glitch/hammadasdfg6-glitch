@@ -106,7 +106,7 @@ https.get(apiUrl, res => {
         
         modifiedSvg = modifiedSvg.replace('</style>', customStyles + '</style>');
 
-        fs.writeFileSync('animated-stats.svg', modifiedSvg);
-        console.log('Successfully generated animated-stats.svg');
+        fs.writeFileSync('animated-stats-v2.svg', modifiedSvg);
+        console.log('Successfully generated animated-stats-v2.svg');
     });
 });
