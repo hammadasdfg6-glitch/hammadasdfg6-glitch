@@ -52,7 +52,7 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="animated-stats.svg" alt="GitHub Stats" />
+  <img src="animated-stats.svg?v=1786354611881" alt="GitHub Stats" />
   <br/>
   <br/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hammadasdfg6-glitch&theme=radical&hide_border=true&background=151515&ring=FFD700&fire=FFD700&currStreakNum=9f9f9f&v=1" alt="GitHub Streak" />
