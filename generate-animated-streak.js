@@ -70,7 +70,7 @@ https.get(apiUrl, res => {
             return svg;
         }
 
-        const regex = /<text[^>]*y='([^']+)'[^>]*>\s*(\d+)\s*<\/text>/g;
+        const regex = /<text[^>]*\by='([^']+)'[^>]*>\s*(\d+)\s*<\/text>/g;
         let modifiedSvg = data.replace(regex, (match, y, number) => {
             return generateRollingNumberSVG(number.trim(), y, match);
         });
