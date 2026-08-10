@@ -16,26 +16,25 @@ https.get(apiUrl, res => {
             const charWidth = 16;
             const lineHeight = 28;
             
-            // const clipId = 'clip-streak-' + styleCounter;
+            const clipId = `clip-streak-${styleCounter}`;
             const y = parseFloat(yStr);
             
-            // svg += `<defs><clipPath id='${clipId}'><rect x='-50' y='${y - 28}' width='100' height='35' /></clipPath></defs>`;
-            // svg += `<g clip-path='url(#${clipId})'>`;
-            svg += `<g>`;
+            svg += `<defs><clipPath id="${clipId}"><rect x="-50" y="${y - 28}" width="100" height="35" /></clipPath></defs>`;
+            svg += `<g clip-path="url(#${clipId})">`;
             
             digits.forEach((digit, index) => {
                 const d = parseInt(digit);
                 const dx = (index - (digits.length - 1) / 2) * charWidth;
                 
                 if (isNaN(d)) {
-                    svg += `<text x='${dx}' y='${y}' stroke-width='0' text-anchor='middle' fill='#9f9f9f' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px'>${digit}</text>`;
+                    svg += `<text x="${dx}" y="${y}" stroke-width="0" text-anchor="middle" fill="#9f9f9f" stroke="none" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px">${digit}</text>`;
                     return;
                 }
                 
                 let column = '';
                 const spinCount = 10 + d; 
                 for (let i = 0; i <= spinCount; i++) {
-                    column += `<tspan x='${dx}' y='${y + i * lineHeight}'>${i % 10}</tspan>`;
+                    column += `<tspan x="${dx}" y="${y + i * lineHeight}">${i % 10}</tspan>`;
                 }
                 
                 const delay = 0.5 + (index * 0.2); 
@@ -58,12 +57,12 @@ https.get(apiUrl, res => {
                     100% { transform: translateY(${yTransform}px); }
                 }\n`;
                 
-                svg += `<g class='${className}'>`;
+                svg += `<g class="${className}">`;
                 
                 let colorMatch = matchStr.match(/fill='([^']+)'/);
                 let color = colorMatch ? colorMatch[1] : '#9f9f9f';
                 
-                svg += `<text stroke-width='0' text-anchor='middle' fill='${color}' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='28px'>${column}</text>`;
+                svg += `<text stroke-width="0" text-anchor="middle" fill="${color}" stroke="none" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px">${column}</text>`;
                 svg += `</g>`;
             });
             
