@@ -19,8 +19,9 @@ https.get(apiUrl, res => {
             const clipId = `clip-streak-${styleCounter}`;
             const y = parseFloat(yStr);
             
-            svg += `<defs><clipPath id="${clipId}"><rect x="-50" y="${y - 28}" width="100" height="35" /></clipPath></defs>`;
-            svg += `<g clip-path="url(#${clipId})">`;
+            svg += `<defs><clipPath id="${clipId}"><rect x="0" y="${y - 28}" width="100" height="35" /></clipPath></defs>`;
+            svg += `<g transform="translate(-50, 0)" clip-path="url(#${clipId})">`;
+            svg += `<g transform="translate(50, 0)">`;
             
             digits.forEach((digit, index) => {
                 const d = parseInt(digit);
@@ -66,7 +67,8 @@ https.get(apiUrl, res => {
                 svg += `</g>`;
             });
             
-            svg += `</g>`;
+            svg += `</g>`; // Close compensating translate(50, 0)
+            svg += `</g>`; // Close clipPath group
             return svg;
         }
 
