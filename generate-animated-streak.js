@@ -7,6 +7,11 @@ https.get(apiUrl, res => {
     let data = '';
     res.on('data', chunk => data += chunk);
     res.on('end', () => {
+        if (data.includes('Failed to retrieve') || data.includes('Something went wrong')) {
+            console.error('API returned an error. Aborting to preserve the previous SVG.');
+            process.exit(1);
+        }
+        
         let customStyles = '\n';
         let styleCounter = 100;
 

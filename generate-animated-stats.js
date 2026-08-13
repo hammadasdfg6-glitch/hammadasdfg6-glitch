@@ -67,6 +67,11 @@ https.get(apiUrl, res => {
     let data = '';
     res.on('data', chunk => data += chunk);
     res.on('end', () => {
+        if (data.includes('Failed to retrieve') || data.includes('Something went wrong')) {
+            console.error('API returned an error. Aborting to preserve the previous SVG.');
+            process.exit(1);
+        }
+        
         // Regex to find only the specific <text> tags with data-testid
         const regex = /<text([^>]*data-testid="([^"]+)"[^>]*)>([\s\S]*?)<\/text>/g;
         
