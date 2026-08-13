@@ -15,22 +15,22 @@
 @keyframes spin-100 {
                     0% { transform: translateY(0); }
                     6.666666666666667% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                    26.666666666666668% { transform: translateY(-420px); }
-                    100% { transform: translateY(-420px); }
+                    26.666666666666668% { transform: translateY(-476px); }
+                    100% { transform: translateY(-476px); }
                 }
 .col-101 { animation: spin-101 7.5s infinite; }
 @keyframes spin-101 {
                     0% { transform: translateY(0); }
                     9.333333333333332% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                    29.333333333333332% { transform: translateY(-476px); }
-                    100% { transform: translateY(-476px); }
+                    29.333333333333332% { transform: translateY(-504px); }
+                    100% { transform: translateY(-504px); }
                 }
 .col-102 { animation: spin-102 7.5s infinite; }
 @keyframes spin-102 {
                     0% { transform: translateY(0); }
                     6.666666666666667% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                    26.666666666666668% { transform: translateY(-336px); }
-                    100% { transform: translateY(-336px); }
+                    26.666666666666668% { transform: translateY(-308px); }
+                    100% { transform: translateY(-308px); }
                 }
 .col-103 { animation: spin-103 7.5s infinite; }
 @keyframes spin-103 {
@@ -61,7 +61,7 @@
             <g style='isolation: isolate'>
                 <!-- Total Contributions big number -->
                 <g transform='translate(82.5, 48)'>
-                    <defs><clipPath id="clip-streak-100"><rect x="0" y="4" width="100" height="35" /></clipPath></defs><g transform="translate(-50, 0)" clip-path="url(#clip-streak-100)"><g transform="translate(50, 0)"><g class="col-100"><text stroke-width="0" text-anchor="middle" fill="#FE428E" stroke="none" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px"><tspan x="-8" y="32">0</tspan><tspan x="-8" y="60">1</tspan><tspan x="-8" y="88">2</tspan><tspan x="-8" y="116">3</tspan><tspan x="-8" y="144">4</tspan><tspan x="-8" y="172">5</tspan><tspan x="-8" y="200">6</tspan><tspan x="-8" y="228">7</tspan><tspan x="-8" y="256">8</tspan><tspan x="-8" y="284">9</tspan><tspan x="-8" y="312">0</tspan><tspan x="-8" y="340">1</tspan><tspan x="-8" y="368">2</tspan><tspan x="-8" y="396">3</tspan><tspan x="-8" y="424">4</tspan><tspan x="-8" y="452">5</tspan></text></g><g class="col-101"><text stroke-width="0" text-anchor="middle" fill="#FE428E" stroke="none" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px"><tspan x="8" y="32">0</tspan><tspan x="8" y="60">1</tspan><tspan x="8" y="88">2</tspan><tspan x="8" y="116">3</tspan><tspan x="8" y="144">4</tspan><tspan x="8" y="172">5</tspan><tspan x="8" y="200">6</tspan><tspan x="8" y="228">7</tspan><tspan x="8" y="256">8</tspan><tspan x="8" y="284">9</tspan><tspan x="8" y="312">0</tspan><tspan x="8" y="340">1</tspan><tspan x="8" y="368">2</tspan><tspan x="8" y="396">3</tspan><tspan x="8" y="424">4</tspan><tspan x="8" y="452">5</tspan><tspan x="8" y="480">6</tspan><tspan x="8" y="508">7</tspan></text></g></g></g>
+                    <defs><clipPath id="clip-streak-100"><rect x="0" y="4" width="100" height="35" /></clipPath></defs><g transform="translate(-50, 0)" clip-path="url(#clip-streak-100)"><g transform="translate(50, 0)"><g class="col-100"><text stroke-width="0" text-anchor="middle" fill="#FE428E" stroke="none" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px"><tspan x="-8" y="32">0</tspan><tspan x="-8" y="60">1</tspan><tspan x="-8" y="88">2</tspan><tspan x="-8" y="116">3</tspan><tspan x="-8" y="144">4</tspan><tspan x="-8" y="172">5</tspan><tspan x="-8" y="200">6</tspan><tspan x="-8" y="228">7</tspan><tspan x="-8" y="256">8</tspan><tspan x="-8" y="284">9</tspan><tspan x="-8" y="312">0</tspan><tspan x="-8" y="340">1</tspan><tspan x="-8" y="368">2</tspan><tspan x="-8" y="396">3</tspan><tspan x="-8" y="424">4</tspan><tspan x="-8" y="452">5</tspan><tspan x="-8" y="480">6</tspan><tspan x="-8" y="508">7</tspan></text></g><g class="col-101"><text stroke-width="0" text-anchor="middle" fill="#FE428E" stroke="none" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px"><tspan x="8" y="32">0</tspan><tspan x="8" y="60">1</tspan><tspan x="8" y="88">2</tspan><tspan x="8" y="116">3</tspan><tspan x="8" y="144">4</tspan><tspan x="8" y="172">5</tspan><tspan x="8" y="200">6</tspan><tspan x="8" y="228">7</tspan><tspan x="8" y="256">8</tspan><tspan x="8" y="284">9</tspan><tspan x="8" y="312">0</tspan><tspan x="8" y="340">1</tspan><tspan x="8" y="368">2</tspan><tspan x="8" y="396">3</tspan><tspan x="8" y="424">4</tspan><tspan x="8" y="452">5</tspan><tspan x="8" y="480">6</tspan><tspan x="8" y="508">7</tspan><tspan x="8" y="536">8</tspan></text></g></g></g>
                 </g>
 
                 <!-- Total Contributions label -->
@@ -89,7 +89,7 @@
                 <!-- Current Streak range -->
                 <g transform='translate(247.5, 145)'>
                     <text x='0' y='21' stroke-width='0' text-anchor='middle' fill='#A9FEF7' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
-                        Aug 9 - Aug 10
+                        Aug 13
                     </text>
                 </g>
 
@@ -105,7 +105,7 @@
 
                 <!-- Current Streak big number -->
                 <g transform='translate(247.5, 48)'>
-                    <defs><clipPath id="clip-streak-102"><rect x="0" y="4" width="100" height="35" /></clipPath></defs><g transform="translate(-50, 0)" clip-path="url(#clip-streak-102)"><g transform="translate(50, 0)"><g class="col-102"><text stroke-width="0" text-anchor="middle" fill="#9f9f9f" stroke="none" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px"><tspan x="0" y="32">0</tspan><tspan x="0" y="60">1</tspan><tspan x="0" y="88">2</tspan><tspan x="0" y="116">3</tspan><tspan x="0" y="144">4</tspan><tspan x="0" y="172">5</tspan><tspan x="0" y="200">6</tspan><tspan x="0" y="228">7</tspan><tspan x="0" y="256">8</tspan><tspan x="0" y="284">9</tspan><tspan x="0" y="312">0</tspan><tspan x="0" y="340">1</tspan><tspan x="0" y="368">2</tspan></text></g></g></g>
+                    <defs><clipPath id="clip-streak-102"><rect x="0" y="4" width="100" height="35" /></clipPath></defs><g transform="translate(-50, 0)" clip-path="url(#clip-streak-102)"><g transform="translate(50, 0)"><g class="col-102"><text stroke-width="0" text-anchor="middle" fill="#9f9f9f" stroke="none" font-family='"Segoe UI", Ubuntu, sans-serif' font-weight="700" font-size="28px"><tspan x="0" y="32">0</tspan><tspan x="0" y="60">1</tspan><tspan x="0" y="88">2</tspan><tspan x="0" y="116">3</tspan><tspan x="0" y="144">4</tspan><tspan x="0" y="172">5</tspan><tspan x="0" y="200">6</tspan><tspan x="0" y="228">7</tspan><tspan x="0" y="256">8</tspan><tspan x="0" y="284">9</tspan><tspan x="0" y="312">0</tspan><tspan x="0" y="340">1</tspan></text></g></g></g>
                 </g>
 
             </g>
