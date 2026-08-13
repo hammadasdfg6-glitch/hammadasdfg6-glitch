@@ -54,7 +54,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 127.42532200850238;
+        stroke-dashoffset: 127.09609378729796;
       }
     }
   
@@ -98,15 +98,15 @@
 @keyframes spin-2 {
                 0% { transform: translateY(0); }
                 9.333333333333332% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                29.333333333333332% { transform: translateY(-160px); }
-                100% { transform: translateY(-160px); }
+                29.333333333333332% { transform: translateY(-224px); }
+                100% { transform: translateY(-224px); }
             }
 .col-3 { animation: spin-3 7.5s infinite; }
 @keyframes spin-3 {
                 0% { transform: translateY(0); }
                 12.000000000000002% { transform: translateY(0); animation-timing-function: cubic-bezier(0.16, 1, 0.3, 1); }
-                32% { transform: translateY(-192px); }
-                100% { transform: translateY(-192px); }
+                32% { transform: translateY(-208px); }
+                100% { transform: translateY(-208px); }
             }
 .col-4 { animation: spin-4 7.5s infinite; }
 @keyframes spin-4 {
@@ -133,8 +133,8 @@
         @keyframes customRankAnimation {
             0% { stroke-dashoffset: 251.327; }
             6.66% { stroke-dashoffset: 251.327; animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); }
-            20% { stroke-dashoffset: 127.42532200850238; }
-            100% { stroke-dashoffset: 127.42532200850238; }
+            20% { stroke-dashoffset: 127.09609378729796; }
+            100% { stroke-dashoffset: 127.09609378729796; }
         }
         </style>
 
@@ -211,11 +211,11 @@
             </g>
             
             <g class="col-2">
-                <text class="stat"><tspan x="158.5" y="12.5">0</tspan><tspan x="158.5" y="28.5">1</tspan><tspan x="158.5" y="44.5">2</tspan><tspan x="158.5" y="60.5">3</tspan><tspan x="158.5" y="76.5">4</tspan><tspan x="158.5" y="92.5">5</tspan><tspan x="158.5" y="108.5">6</tspan><tspan x="158.5" y="124.5">7</tspan><tspan x="158.5" y="140.5">8</tspan><tspan x="158.5" y="156.5">9</tspan><tspan x="158.5" y="172.5">0</tspan></text>
+                <text class="stat"><tspan x="158.5" y="12.5">0</tspan><tspan x="158.5" y="28.5">1</tspan><tspan x="158.5" y="44.5">2</tspan><tspan x="158.5" y="60.5">3</tspan><tspan x="158.5" y="76.5">4</tspan><tspan x="158.5" y="92.5">5</tspan><tspan x="158.5" y="108.5">6</tspan><tspan x="158.5" y="124.5">7</tspan><tspan x="158.5" y="140.5">8</tspan><tspan x="158.5" y="156.5">9</tspan><tspan x="158.5" y="172.5">0</tspan><tspan x="158.5" y="188.5">1</tspan><tspan x="158.5" y="204.5">2</tspan><tspan x="158.5" y="220.5">3</tspan><tspan x="158.5" y="236.5">4</tspan></text>
             </g>
             
             <g class="col-3">
-                <text class="stat"><tspan x="167" y="12.5">0</tspan><tspan x="167" y="28.5">1</tspan><tspan x="167" y="44.5">2</tspan><tspan x="167" y="60.5">3</tspan><tspan x="167" y="76.5">4</tspan><tspan x="167" y="92.5">5</tspan><tspan x="167" y="108.5">6</tspan><tspan x="167" y="124.5">7</tspan><tspan x="167" y="140.5">8</tspan><tspan x="167" y="156.5">9</tspan><tspan x="167" y="172.5">0</tspan><tspan x="167" y="188.5">1</tspan><tspan x="167" y="204.5">2</tspan></text>
+                <text class="stat"><tspan x="167" y="12.5">0</tspan><tspan x="167" y="28.5">1</tspan><tspan x="167" y="44.5">2</tspan><tspan x="167" y="60.5">3</tspan><tspan x="167" y="76.5">4</tspan><tspan x="167" y="92.5">5</tspan><tspan x="167" y="108.5">6</tspan><tspan x="167" y="124.5">7</tspan><tspan x="167" y="140.5">8</tspan><tspan x="167" y="156.5">9</tspan><tspan x="167" y="172.5">0</tspan><tspan x="167" y="188.5">1</tspan><tspan x="167" y="204.5">2</tspan><tspan x="167" y="220.5">3</tspan></text>
             </g>
             </g>
     </g>
