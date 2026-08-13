@@ -2,7 +2,7 @@ const fs = require('fs');
 const https = require('https');
 
 const username = 'hammadasdfg6-glitch';
-const apiUrl = `https://github-readme-stats-eight-theta.vercel.app/api?username=${username}&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=151515&title_color=FFD700&icon_color=FFD700&text_color=9f9f9f&v=1`;
+const apiUrl = `https://github-readme-stats-eight-theta.vercel.app/api?username=${username}&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=151515&title_color=FFD700&icon_color=FFD700&text_color=9f9f9f&v=${Date.now()}`;
 
     let customStyles = '\n';
     let styleCounter = 0;
