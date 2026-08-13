@@ -55,7 +55,7 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
   <img src="animated-stats-v2.svg?v=1786609382588" alt="GitHub Stats" />
   <br/>
   <br/>
-  <img src="animated-streak-v2.svg?v=1786609382588" alt="GitHub Streak" />
+  <img src="animated-streak-v2.svg?v=1786611029429" alt="GitHub Streak" />
 </div>
 
 ---
