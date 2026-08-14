@@ -30,7 +30,7 @@ jobs:
           
       - name: Bump Cache Buster in README
         run: |
-          node -e "const fs = require('fs'); let readme = fs.readFileSync('README.md', 'utf8'); readme = readme.replace(/animated-stats-v2\.svg\?v=\d+/, 'animated-stats-v2.svg?v=' + Date.now()).replace(/animated-streak-v2\.svg\?v=\d+/, 'animated-streak-v2.svg?v=' + Date.now()); fs.writeFileSync('README.md', readme);"
+          node -e "const fs = require('fs'); let readme = fs.readFileSync('README.md', 'utf8'); readme = readme.replace(/animated-stats-v2\.svg(\?v=\d+)?/, 'animated-stats-v2.svg?v=' + Date.now()).replace(/animated-streak-v2\.svg(\?v=\d+)?/, 'animated-streak-v2.svg?v=' + Date.now()); fs.writeFileSync('README.md', readme);"
         
       - name: Commit and Push changes
         run: |

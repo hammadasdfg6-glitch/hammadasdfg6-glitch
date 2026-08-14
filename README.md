@@ -39,12 +39,12 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 
 <h3 align="center">Technologies & Frameworks</h3>
 <p align="center">
-  <img src="tech-stack.svg" alt="Technologies and Frameworks" />
+  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/main/tech-stack.svg" alt="Technologies and Frameworks" />
 </p>
 
 <h3 align="center">Tools & Platforms</h3>
 <p align="center">
-  <img src="tools-stack.svg" alt="Tools and Platforms" />
+  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/main/tools-stack.svg" alt="Tools and Platforms" />
 </p>
 
 ---
@@ -52,10 +52,10 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="animated-stats-v2.svg?v=1786690717958" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/main/animated-stats-v2.svg" alt="GitHub Stats" />
   <br/>
   <br/>
-  <img src="animated-streak-v2.svg?v=1786690717958" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/main/animated-streak-v2.svg" alt="GitHub Streak" />
 </div>
 
 ---
