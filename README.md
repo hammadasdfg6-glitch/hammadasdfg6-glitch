@@ -39,12 +39,12 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 
 <h3 align="center">Technologies & Frameworks</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/main/tech-grid.svg?v=20260814" alt="Technologies and Frameworks" />
+  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/ac364ea/tech-grid.svg" alt="Technologies and Frameworks" />
 </p>
 
 <h3 align="center">Tools & Platforms</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/main/tools-grid.svg?v=20260814" alt="Tools and Platforms" />
+  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/ac364ea/tools-grid.svg" alt="Tools and Platforms" />
 </p>
 
 ---
