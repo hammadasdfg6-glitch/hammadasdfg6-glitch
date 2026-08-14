@@ -65,10 +65,10 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/main/animated-stats-v2.svg?v=1786690717958" alt="GitHub Stats" />
+  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/main/animated-stats-v2.svg?v=20260814" alt="GitHub Stats" />
   <br/>
   <br/>
-  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/main/animated-streak-v2.svg?v=1786690717958" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/main/animated-streak-v2.svg?v=20260814" alt="GitHub Streak" />
 </div>
 
 ---
