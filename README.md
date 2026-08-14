@@ -39,12 +39,12 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 
 <h3 align="center">Technologies & Frameworks</h3>
 <p align="center">
-  <img src="tech-grid.svg" alt="Technologies and Frameworks" />
+  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@main/tech-grid.svg" alt="Technologies and Frameworks" />
 </p>
 
 <h3 align="center">Tools & Platforms</h3>
 <p align="center">
-  <img src="tools-grid.svg" alt="Tools and Platforms" />
+  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@main/tools-grid.svg" alt="Tools and Platforms" />
 </p>
 
 ---
@@ -52,7 +52,7 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=hammadasdfg6-glitch&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=151515&title_color=FFD700&icon_color=FFD700&text_color=9f9f9f" alt="GitHub Stats" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=hammadasdfg6-glitch&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=151515&title_color=FFD700&icon_color=FFD700&text_color=9f9f9f&show_icons=true" alt="GitHub Stats" />
   <br/>
   <br/>
   <img src="https://streak-stats.demolab.com/?user=hammadasdfg6-glitch&theme=radical&hide_border=true&background=151515&ring=FFD700&fire=FFD700&currStreakNum=9f9f9f" alt="GitHub Streak" />
