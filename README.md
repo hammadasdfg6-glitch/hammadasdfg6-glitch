@@ -44,7 +44,7 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 
 <h3 align="center">Tools & Platforms</h3>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/ac364ea/tools-grid.svg" alt="Tools and Platforms" />
+  <img src="https://raw.githubusercontent.com/hammadasdfg6-glitch/hammadasdfg6-glitch/9527ac8/tools-stack.svg" alt="Tools and Platforms" />
 </p>
 
 ---
