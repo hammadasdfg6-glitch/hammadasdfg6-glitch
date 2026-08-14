@@ -1,0 +1,45 @@
+<svg width="440" height="118" viewBox="0 0 440 118" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .icon-group {
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      cursor: pointer;
+    }
+    .icon-group:hover {
+      transform: scale(1.2) translateY(-5px);
+    }
+    .icon-group:hover text {
+      fill: #FFD700;
+    }
+  </style>
+  
+    <g class="icon-group" style="transform-origin: 44px 44px;">
+      <g transform="translate(20, 20) scale(2)">
+        <path d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z" fill="#F05032" />
+      </g>
+      <text x="44" y="90" fill="#9f9f9f" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Git</text>
+    </g>
+    <g class="icon-group" style="transform-origin: 132px 44px;">
+      <g transform="translate(108, 20) scale(2)">
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" fill="#ffffff" />
+      </g>
+      <text x="132" y="90" fill="#9f9f9f" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">GitHub</text>
+    </g>
+    <g class="icon-group" style="transform-origin: 220px 44px;">
+      <g transform="translate(196, 20) scale(2)">
+        <path d="M11.545 23.3a.613.613 0 0 1-.895.197L.252 15.936A.61.61 0 0 1 0 15.439V6.325c0-.502.569-.792.975-.497l6.358 4.624c.594.433 1.432.25 1.793-.39L14.393.7a.62.62 0 0 1 .535-.314h8.455a.613.613 0 0 1 .537.916z" fill="#6E9F18" />
+      </g>
+      <text x="220" y="90" fill="#9f9f9f" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Vitest</text>
+    </g>
+    <g class="icon-group" style="transform-origin: 308px 44px;">
+      <g transform="translate(284, 20) scale(2)">
+        <path d="M23.15 2.587L18.21.21a1.494 1.494 0 0 0-1.705.29l-9.46 8.63-4.12-3.128a.999.999 0 0 0-1.276.057L.327 7.261A1 1 0 0 0 .326 8.74L3.899 12 .326 15.26a1 1 0 0 0 .001 1.479L1.65 17.94a.999.999 0 0 0 1.276.057l4.12-3.128 9.46 8.63a1.492 1.492 0 0 0 1.704.29l4.942-2.377A1.5 1.5 0 0 0 24 20.06V3.939a1.5 1.5 0 0 0-.85-1.352zm-5.146 14.861L10.826 12l7.178-5.448v10.896z" fill="#0078D4" />
+      </g>
+      <text x="308" y="90" fill="#9f9f9f" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">VS Code</text>
+    </g>
+    <g class="icon-group" style="transform-origin: 396px 44px;">
+      <g transform="translate(372, 20) scale(2)">
+        <path d="m12 1.608 12 20.784H0Z" fill="#ffffff" />
+      </g>
+      <text x="396" y="90" fill="#9f9f9f" font-family="Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">Vercel</text>
+    </g>
+</svg>
