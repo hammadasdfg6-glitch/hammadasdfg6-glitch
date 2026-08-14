@@ -39,12 +39,12 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
 
 <h3 align="center">Technologies & Frameworks</h3>
 <p align="center">
-  <img src="tech-grid.svg?v=2" alt="Technologies and Frameworks" />
+  <img src="tech-grid.svg?v=10" alt="Technologies and Frameworks" />
 </p>
 
 <h3 align="center">Tools & Platforms</h3>
 <p align="center">
-  <img src="tools-grid.svg?v=2" alt="Tools and Platforms" />
+  <img src="tools-grid.svg?v=10" alt="Tools and Platforms" />
 </p>
 
 ---
