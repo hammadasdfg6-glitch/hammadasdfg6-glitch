@@ -67,8 +67,8 @@ https.get(apiUrl, res => {
     let data = '';
     res.on('data', chunk => data += chunk);
     res.on('end', () => {
-        if (data.includes('Failed to retrieve') || data.includes('Something went wrong')) {
-            console.error('API returned an error. Aborting to preserve the previous SVG.');
+        if (!data.includes('<svg') || data.includes('Failed to retrieve') || data.includes('Something went wrong') || data.includes('Application Error')) {
+            console.error('API returned an invalid or error response. Aborting.');
             process.exit(1);
         }
         
