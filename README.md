@@ -55,7 +55,7 @@ I am a 20-year-old Software Engineering student with a deep passion for **Backen
   <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=hammadasdfg6-glitch&theme=radical&hide_border=true&include_all_commits=true&count_private=true&bg_color=151515&title_color=FFD700&icon_color=FFD700&text_color=9f9f9f&show_icons=true" alt="GitHub Stats" />
   <br/>
   <br/>
-  <img src="https://streak-stats.demolab.com/?user=hammadasdfg6-glitch&theme=radical&hide_border=true&background=151515&ring=FFD700&fire=FFD700&currStreakNum=9f9f9f" alt="GitHub Streak" />
+  <img src="https://streak-stats.vercel.app/?user=hammadasdfg6-glitch&theme=radical&hide_border=true&background=151515&ring=FFD700&fire=FFD700&currStreakNum=9f9f9f" alt="GitHub Streak" />
 </div>
 
 ---
