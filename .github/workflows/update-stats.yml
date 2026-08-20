@@ -1,9 +1,7 @@
 name: Update Animated GitHub Stats
 
 on:
-  schedule:
-    - cron: '0 */2 * * *' # Run every 2 hours
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch: # Allow manual trigger only
 
 jobs:
   update-stats:

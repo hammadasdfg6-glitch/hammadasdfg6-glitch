@@ -1,7 +1,7 @@
 const fs = require('fs');
 const https = require('https');
 
-const apiUrl = `https://streak-stats.demolab.com/?user=hammadasdfg6-glitch&theme=radical&hide_border=true&background=151515&ring=FFD700&fire=FFD700&currStreakNum=9f9f9f&v=${Date.now()}`;
+const apiUrl = `https://streak-stats.vercel.app/?user=hammadasdfg6-glitch&theme=radical&hide_border=true&background=151515&ring=FFD700&fire=FFD700&currStreakNum=9f9f9f&v=${Date.now()}`;
 
 https.get(apiUrl, res => {
     let data = '';
