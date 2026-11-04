@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- ==================== CUSTOM ANIMATED HERO CONSOLE ==================== -->
-  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@main/hero-banner.svg?v=20261104" width="100%" alt="Muhammad Hammad - Backend Systems Engineer" />
+  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@6c235ef/hero-banner.svg" width="100%" alt="Muhammad Hammad - Backend Systems Engineer" />
 
   <br/>
 
@@ -29,7 +29,7 @@
 
 <!-- ==================== SYSTEM ARCHITECTURE & IDENTITY BENTO ==================== -->
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@main/system-architecture.svg?v=20261104" width="100%" alt="Developer Telemetry and System Architecture" />
+  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@6c235ef/system-architecture.svg" width="100%" alt="Developer Telemetry and System Architecture" />
 </div>
 
 <br/>
@@ -41,12 +41,12 @@
 
 <h4 align="center">⚡ Core Runtimes, Databases &amp; Event Protocols</h4>
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@main/tech-grid.svg?v=20261104b" width="100%" alt="Technologies and Frameworks" />
+  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@6c235ef/tech-grid.svg" width="100%" alt="Technologies and Frameworks" />
 </p>
 
 <h4 align="center">🔧 Development Workflow, Testing &amp; Cloud</h4>
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@main/tools-grid.svg?v=20261104" width="100%" alt="Tools and Platforms" />
+  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@6c235ef/tools-grid.svg" width="100%" alt="Tools and Platforms" />
 </p>
 
 <br/>
@@ -73,6 +73,6 @@
 <!-- ==================== CUSTOM ENGINEERED FOOTER ==================== -->
 <div align="center">
   <a href="mailto:hammadasdfg6@gmail.com">
-    <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@main/footer-banner.svg?v=20261104" width="100%" alt="Connect with Muhammad Hammad" />
+    <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@6c235ef/footer-banner.svg" width="100%" alt="Connect with Muhammad Hammad" />
   </a>
 </div>
