@@ -41,7 +41,7 @@
 
 <h4 align="center">⚡ Core Runtimes, Databases &amp; Event Protocols</h4>
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@main/tech-grid.svg?v=20261104" width="100%" alt="Technologies and Frameworks" />
+  <img src="https://cdn.jsdelivr.net/gh/hammadasdfg6-glitch/hammadasdfg6-glitch@main/tech-grid.svg?v=20261104b" width="100%" alt="Technologies and Frameworks" />
 </p>
 
 <h4 align="center">🔧 Development Workflow, Testing &amp; Cloud</h4>
