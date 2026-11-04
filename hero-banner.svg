@@ -149,47 +149,49 @@
   </text>
 
   <!-- ==================== RIGHT SECTION: LIVE CLUSTER SCHEMATIC ==================== -->
-  <g transform="translate(570, 56)" class="floating">
-    <!-- Schematic Backdrop Card -->
-    <rect x="0" y="0" width="296" height="196" rx="12" fill="#121218" fill-opacity="0.9" stroke="#262632" stroke-width="1.5"/>
-    <text x="16" y="22" fill="#686878" class="font-mono" font-size="10" font-weight="700" letter-spacing="1">LIVE TOPOLOGY // MESH-V2</text>
-    <circle cx="276" cy="18" r="3" fill="#FFD700" class="pulse"/>
+  <g transform="translate(570, 56)">
+    <g class="floating">
+      <!-- Schematic Backdrop Card -->
+      <rect x="0" y="0" width="296" height="196" rx="12" fill="#121218" fill-opacity="0.9" stroke="#262632" stroke-width="1.5"/>
+      <text x="16" y="22" fill="#686878" class="font-mono" font-size="10" font-weight="700" letter-spacing="1">LIVE TOPOLOGY // MESH-V2</text>
+      <circle cx="276" cy="18" r="3" fill="#FFD700" class="pulse"/>
 
-    <!-- Animated Data Streams (Connecting Lines) -->
-    <!-- Gateway to Services -->
-    <path d="M 148 64 L 74 104" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.7" class="stream"/>
-    <path d="M 148 64 L 148 104" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.7" class="stream"/>
-    <path d="M 148 64 L 222 104" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.7" class="stream"/>
+      <!-- Animated Data Streams (Connecting Lines) -->
+      <!-- Gateway to Services -->
+      <path d="M 148 64 L 74 104" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.7" class="stream"/>
+      <path d="M 148 64 L 148 104" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.7" class="stream"/>
+      <path d="M 148 64 L 222 104" stroke="#FFD700" stroke-width="1.5" stroke-opacity="0.7" class="stream"/>
 
-    <!-- Services to Data Layer -->
-    <path d="M 74 132 L 105 162" stroke="#5FA04E" stroke-width="1.5" stroke-opacity="0.7" class="stream-rev"/>
-    <path d="M 148 132 L 105 162" stroke="#336791" stroke-width="1.5" stroke-opacity="0.7" class="stream"/>
-    <path d="M 148 132 L 195 162" stroke="#E10098" stroke-width="1.5" stroke-opacity="0.7" class="stream"/>
-    <path d="M 222 132 L 195 162" stroke="#DC382D" stroke-width="1.5" stroke-opacity="0.7" class="stream-rev"/>
+      <!-- Services to Data Layer -->
+      <path d="M 74 132 L 105 162" stroke="#5FA04E" stroke-width="1.5" stroke-opacity="0.7" class="stream-rev"/>
+      <path d="M 148 132 L 105 162" stroke="#336791" stroke-width="1.5" stroke-opacity="0.7" class="stream"/>
+      <path d="M 148 132 L 195 162" stroke="#E10098" stroke-width="1.5" stroke-opacity="0.7" class="stream"/>
+      <path d="M 222 132 L 195 162" stroke="#DC382D" stroke-width="1.5" stroke-opacity="0.7" class="stream-rev"/>
 
-    <!-- Node 1: API Gateway (Top Center) -->
-    <rect x="96" y="36" width="104" height="28" rx="6" fill="#1B1B24" stroke="#FFD700" stroke-width="1.5"/>
-    <circle cx="110" cy="50" r="3.5" fill="#FFD700" class="pulse"/>
-    <text x="120" y="54" fill="#FFFFFF" class="font-mono" font-size="10.5" font-weight="700">API GATEWAY</text>
+      <!-- Node 1: API Gateway (Top Center) -->
+      <rect x="96" y="36" width="104" height="28" rx="6" fill="#1B1B24" stroke="#FFD700" stroke-width="1.5"/>
+      <circle cx="110" cy="50" r="3.5" fill="#FFD700" class="pulse"/>
+      <text x="120" y="54" fill="#FFFFFF" class="font-mono" font-size="10.5" font-weight="700">API GATEWAY</text>
 
-    <!-- Node 2: Auth / REST (Middle Left) -->
-    <rect x="28" y="104" width="84" height="28" rx="6" fill="#181820" stroke="#5FA04E" stroke-width="1.2"/>
-    <text x="70" y="122" fill="#E0E0E8" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">REST / Express</text>
+      <!-- Node 2: Auth / REST (Middle Left) -->
+      <rect x="28" y="104" width="84" height="28" rx="6" fill="#181820" stroke="#5FA04E" stroke-width="1.2"/>
+      <text x="70" y="122" fill="#E0E0E8" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">REST / Express</text>
 
-    <!-- Node 3: GraphQL / WS (Middle Center) -->
-    <rect x="118" y="104" width="60" height="28" rx="6" fill="#181820" stroke="#E10098" stroke-width="1.2"/>
-    <text x="148" y="122" fill="#E0E0E8" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">GraphQL</text>
+      <!-- Node 3: GraphQL / WS (Middle Center) -->
+      <rect x="118" y="104" width="60" height="28" rx="6" fill="#181820" stroke="#E10098" stroke-width="1.2"/>
+      <text x="148" y="122" fill="#E0E0E8" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">GraphQL</text>
 
-    <!-- Node 4: BullMQ Worker (Middle Right) -->
-    <rect x="184" y="104" width="84" height="28" rx="6" fill="#181820" stroke="#DC382D" stroke-width="1.2"/>
-    <text x="226" y="122" fill="#E0E0E8" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">BullMQ / Redis</text>
+      <!-- Node 4: BullMQ Worker (Middle Right) -->
+      <rect x="184" y="104" width="84" height="28" rx="6" fill="#181820" stroke="#DC382D" stroke-width="1.2"/>
+      <text x="226" y="122" fill="#E0E0E8" class="font-mono" font-size="10" font-weight="600" text-anchor="middle">BullMQ / Redis</text>
 
-    <!-- Node 5: Primary DB Cluster (Bottom Left) -->
-    <rect x="48" y="156" width="104" height="26" rx="6" fill="#16161E" stroke="#336791" stroke-width="1.2"/>
-    <text x="100" y="173" fill="#A8C5E8" class="font-mono" font-size="9.5" font-weight="700" text-anchor="middle">PG / MySQL Pool</text>
+      <!-- Node 5: Primary DB Cluster (Bottom Left) -->
+      <rect x="48" y="156" width="104" height="26" rx="6" fill="#16161E" stroke="#336791" stroke-width="1.2"/>
+      <text x="100" y="173" fill="#A8C5E8" class="font-mono" font-size="9.5" font-weight="700" text-anchor="middle">PG / MySQL Pool</text>
 
-    <!-- Node 6: Document Store (Bottom Right) -->
-    <rect x="160" y="156" width="92" height="26" rx="6" fill="#16161E" stroke="#47A248" stroke-width="1.2"/>
-    <text x="206" y="173" fill="#A8E8B0" class="font-mono" font-size="9.5" font-weight="700" text-anchor="middle">MongoDB Replica</text>
+      <!-- Node 6: Document Store (Bottom Right) -->
+      <rect x="160" y="156" width="92" height="26" rx="6" fill="#16161E" stroke="#47A248" stroke-width="1.2"/>
+      <text x="206" y="173" fill="#A8E8B0" class="font-mono" font-size="9.5" font-weight="700" text-anchor="middle">MongoDB Replica</text>
+    </g>
   </g>
 </svg>
